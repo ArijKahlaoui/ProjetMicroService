@@ -4,6 +4,7 @@ import lombok.*;
 
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Rating {
@@ -15,4 +16,5 @@ public class Rating {
 	private  String feedback;
 
 	private Hotel hotel;
+
 }
